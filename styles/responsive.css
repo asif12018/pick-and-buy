@@ -151,6 +151,15 @@
         left: 40%;
     }
 
+    /*=====Deal section start from here===*/
+    .top-deal-photo , .middle-deal-photo{
+        padding: 165px 0 25px 0;
+    }
+    .top-deal-photo .top-deal-content{
+        margin: 0 5%;
+        padding: 20px 10px;
+    } 
+
 }
 
     @media screen and (min-width:599px) and (max-width:768px) {

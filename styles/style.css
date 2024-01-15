@@ -252,11 +252,13 @@ li.link-last {
     grid-column: 1/span 6;
     position: relative;
 }
-.place-name-1{
+
+.place-name-1 {
     position: absolute;
     top: 50%;
     left: 40%;
 }
+
 .place-name h4 {
     color: #FFF;
     font-size: 1.2rem;
@@ -267,7 +269,8 @@ li.link-last {
     grid-column: 7/span 6;
     position: relative;
 }
-.place-name-2{
+
+.place-name-2 {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -277,7 +280,8 @@ li.link-last {
     grid-column: 1/span 4;
     position: relative;
 }
-.place-name-3{
+
+.place-name-3 {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -287,7 +291,8 @@ li.link-last {
     grid-column: 5/span 5;
     position: relative;
 }
-.place-name-4{
+
+.place-name-4 {
     position: absolute;
     top: 50%;
     left: 30%;
@@ -297,7 +302,8 @@ li.link-last {
     grid-column: 10/span 3;
     position: relative;
 }
-.place-name-5{
+
+.place-name-5 {
     position: absolute;
     top: 50%;
     left: 30%;
@@ -307,7 +313,8 @@ li.link-last {
     grid-column: 1/span 6;
     position: relative;
 }
-.place-name-6{
+
+.place-name-6 {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -317,7 +324,8 @@ li.link-last {
     grid-column: 7/span 6;
     position: relative;
 }
-.place-name-7{
+
+.place-name-7 {
     position: absolute;
     top: 50%;
     left: 40%;
@@ -329,4 +337,149 @@ li.link-last {
 
 .destination-content p {
     margin: 40px 0;
+}
+
+/*======Why choose use section======*/
+.choose-us {
+    margin: 80px 0;
+}
+
+.choose-us-content {
+    text-align: center;
+}
+
+.choose-us-content p {
+    margin: 24px 0;
+}
+
+.choose-us-cards .card {
+    padding: 30px 50px;
+    border-radius: 16px;
+
+}
+
+.choose-us-cards .card1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-us-cards .card2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-us-cards .card3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+
+
+}
+
+.choose-us-cards .card h4 {
+    color: #131318;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 25px 15px;
+}
+
+.choose-us-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.choose-us-cards>.card {
+    flex-basis: 400px;
+}
+
+/*=====top deal section=====*/
+.top-deal-photo ul {
+    display: flex;
+   
+}
+
+.top-deal-photo ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.top-deal-photo {
+    background: url(../Images/Group-39.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 65px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+
+
+}
+.middle-deal-photo{
+    background: url(../Images/Group-40.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 65px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.top-deal-photo .top-deal-content {
+    margin-left: auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 52px 20px;
+    margin-right: 5%;
+ 
+    
+}
+.top-deal-photo .middle-deal-content{
+    margin-right: auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 52px 20px;
+    margin-left: 5%;
+ 
+}
+.deal-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-deal-photo .top-deal-content i {
+    color: #FF5400;
+    margin-left: 5px;
+}
+
+.top-deal-photo .top-deal-content h3 {
+    color: #131318;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 26px 0;
+}
+
+.top-deal-photo .top-deal-content h4 {
+    color: #FF5400;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin: 16px 0;
+}
+.deal-content{
+    text-align: center;
+}
+.deal-content{
+    margin: 30px;
+}
+.deal-section{
+    margin-bottom: 80px;
 }
