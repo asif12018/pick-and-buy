@@ -1,0 +1,23 @@
+/*=====mobile responsive====*/
+@media screen and (max-width:600px) {
+    /*====default css=====*/
+    .container {
+        width: 100%;
+        
+    }
+    /*=====Nav start from here=====*/
+    li.link-last{
+        display: block;
+    }
+    li.link{
+        display: none;
+    }
+}
+@media screen and (min-width:599px) and (max-width:768px) {
+    li.link-last{
+        display: block;
+    }
+    li.link{
+        display: none;
+    }
+}
