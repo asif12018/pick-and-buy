@@ -190,7 +190,7 @@
 
 }
 
-    @media screen and (min-width:599px) and (max-width:768px) {
+    @media screen and (min-width:599px) and (max-width:800px) {
         li.link-last {
             display: block;
         }

@@ -528,7 +528,7 @@ li.link-last {
 }
 
 .news-letter-container form input {
-    padding: 16px 210px 16px 15px;
+    padding: 16px 220px 16px 15px;
     margin: 5px 0;
     border: none;
     outline: none;
@@ -612,4 +612,7 @@ footer{
 .footer-container .icon{
     margin:   5px ;
     padding-bottom: 10px;
+}
+.footer-container .copy-right{
+    margin: 80px 0;
 }
