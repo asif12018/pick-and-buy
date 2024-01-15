@@ -6,6 +6,9 @@
     .container {
         width: 90%;
     }
+    .col-50{
+        width: 90%;
+    }
 
     /*=====Nav start from here=====*/
     .logo h3{
@@ -160,6 +163,16 @@
         padding: 20px 10px;
     } 
 
+
+    /*======demo container======*/
+    .demo-container{
+        flex-direction: column;
+    }
+    .demo-container iframe{
+       
+        width: auto;
+    }
+
 }
 
     @media screen and (min-width:599px) and (max-width:768px) {
@@ -295,5 +308,13 @@
         position: absolute;
         top: 38%;
         left: 40%;
+    }
+     /*======demo container======*/
+    .demo-container{
+        flex-direction: column;
+    }
+    .demo-container iframe{
+       
+        width: 450px;
     }
     }
