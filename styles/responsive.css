@@ -1,23 +1,290 @@
 /*=====mobile responsive====*/
+
 @media screen and (max-width:600px) {
+
     /*====default css=====*/
     .container {
-        width: 100%;
+        width: 90%;
+    }
+
+    /*=====Nav start from here=====*/
+    .logo h3{
+        font-size: 1.5rem;
+    }
+    li.link-last {
+        display: block;
+    }
+
+    li.link {
+        display: none;
+    }
+
+    /*======Hero section start from here=====*/
+    .hero{
+        padding: 80px 0;
+    }
+    .hero .content h1 {
+        color: #FFF;
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 24px;
+    }
+
+    .hero .content p {
+        color: #FFF;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 48px;
+    }
+
+    .hero form {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+   
+    .hero form input {
+        width: 255px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        background: #FFF;
+    }
+    .hero form select {
+        width: 255px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .hero form button {
+        width: 255px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        background: #FF5400;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff;
+    
+    }
+    .hero-container{
+        width: 90%;
+    }
+    .popular-content{
+        margin-bottom: 20px;
+    }
+
+    /*=======Popular section=====*/
+    
+    .popular-container {
+       
+        flex-direction: column;
         
     }
-    /*=====Nav start from here=====*/
-    li.link-last{
-        display: block;
+    .popular-section .container .col-50{
+        width: 100%;
     }
-    li.link{
-        display: none;
+
+    /*=====Destination section====*/
+    .destination-img-container img {
+        width: 100%;
+        height: 176px;
+        object-fit: cover;
+        border-radius: 16px;
     }
+    .destination-img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, ffr);
+        margin: 0 auto;
+    }
+    .destinaion-img-1{
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+    .destinaion-img-2{
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+    }
+    .destinaion-img-3{
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
+    .destinaion-img-4{
+        grid-column: 1/span 1;
+        grid-row: 4/span 1;
+    }
+    .destinaion-img-5{
+        grid-column: 1/span 1;
+        grid-row: 5/span 1;
+    }
+    .destinaion-img-6{
+        grid-column: 1/span 1;
+        grid-row: 6/span 1;
+    }
+    .destinaion-img-7{
+        grid-column: 1/span 1;
+        grid-row: 7/span 1;
+    }
+    .place-name-5{
+        position: absolute;
+        top: 45%;
+        left: 40%;
+    }
+    .place-name-6{
+        position: absolute;
+        top: 38%;
+        left: 40%;
+    }
+
 }
-@media screen and (min-width:599px) and (max-width:768px) {
-    li.link-last{
-        display: block;
+
+    @media screen and (min-width:599px) and (max-width:768px) {
+        li.link-last {
+            display: block;
+        }
+
+        li.link {
+            display: none;
+        }
+
+        /*======Hero section start from here=====*/
+    .hero .content h1 {
+        color: #FFF;
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-bottom: 24px;
     }
-    li.link{
-        display: none;
+
+    .hero .content p {
+        color: #FFF;
+        text-align: center;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 48px;
     }
-}
+
+    .hero form {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+    .hero-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hero form input {
+        width: 255px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        background: #FFF;
+    }
+    .hero form select {
+        width: 255px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .hero form button {
+        width: 255px;
+        height: 52px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        background: #FF5400;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff;
+    
+    } 
+/*=======Popular section=====*/
+    .popular-container {
+       
+        flex-direction: column;
+        
+    }
+    .popular-section .container .col-50{
+        width: 100%;
+    }
+
+    
+    /*=====Destination section====*/
+    .destination-img-container img {
+        width: 100%;
+        height: 176px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .destination-img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, ffr);
+        margin: 0 auto;
+    }
+    .destinaion-img-1{
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+    }
+    .destinaion-img-2{
+        grid-column: 1/span 1;
+        grid-row: 2/span 1;
+    }
+    .destinaion-img-3{
+        grid-column: 1/span 1;
+        grid-row: 3/span 1;
+    }
+    .destinaion-img-4{
+        grid-column: 1/span 1;
+        grid-row: 4/span 1;
+    }
+    .destinaion-img-5{
+        grid-column: 1/span 1;
+        grid-row: 5/span 1;
+    }
+    .destinaion-img-6{
+        grid-column: 1/span 1;
+        grid-row: 6/span 1;
+    }
+    .destinaion-img-7{
+        grid-column: 1/span 1;
+        grid-row: 7/span 1;
+    }
+    .place-name-5{
+        position: absolute;
+        top: 45%;
+        left: 40%;
+    }
+    .place-name-6{
+        position: absolute;
+        top: 38%;
+        left: 40%;
+    }
+    }
