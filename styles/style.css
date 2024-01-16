@@ -616,3 +616,34 @@ footer{
 .footer-container .copy-right{
     margin: 80px 0;
 }
+
+/*======review section======*/
+
+.review-card ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+}
+.review-card{
+    color: white;
+    background-color: #FF5400;
+    border-radius: 18px;
+    padding: 30px;
+}
+.review-card img{
+    border-radius: 50%;
+    margin-right:10px ;
+}
+.review-card-container{
+    display: flex;
+}
+.clientImage{
+    display: flex;
+    align-items: center;
+}
+.review-header{
+    text-align: center;
+}
+.review-header{
+    margin: 50px 0;
+}

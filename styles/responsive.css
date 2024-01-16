@@ -9,6 +9,9 @@
     .col-50{
         width: 90%;
     }
+    .col-33{
+        width: 90%;
+    }
 
     /*=====Nav start from here=====*/
     .logo h3{
@@ -186,6 +189,19 @@
     } 
     .news-letter-container form{
         margin: 20px 0;
+    }
+
+    /*====== review =======*/
+    .col-33{
+        display: 90%;
+    }
+    .review-containar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .review-card-container{
+        flex-direction: column;
+        gap: 20px;
     }
 
 }
