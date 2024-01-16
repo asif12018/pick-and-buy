@@ -173,8 +173,9 @@
        
     }
     .demo-container iframe{
-       
-        width: auto;
+        
+        max-width: 450px;
+        margin: 20px 0 auto;
     }
 
     /*====news letter section====*/
